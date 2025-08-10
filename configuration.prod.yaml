@@ -1,0 +1,6 @@
+apimServiceName: apim-prod-cicd
+namedValues: 
+loggers:
+diagnostics:
+backends:
+apis:
