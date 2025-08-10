@@ -1,5 +1,13 @@
 apimServiceName: apim-prod-cicd
 namedValues: 
+  - name: plainvalue
+    properties:
+      displayName: plainvalue
+      value: "https://www.prod.search2.com"
+  - name: secret
+    properties:
+      displayName: secret
+      value: "PRODSecret"
 loggers:
 diagnostics:
 backends:
