@@ -8,6 +8,10 @@ namedValues:
     properties:
       displayName: secret
       value: "PRODSecret"
+  - name: apimfunction-key
+    properties:
+      displayName: apimfunction-key
+      value: "54EGl2r229kQTU0RElDGQFp4-lR_xCURo1o3tFVmLOxVAzFuM8XCjw=="
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -17,4 +21,8 @@ namedValues:
 loggers:
 diagnostics:
 backends:
+  - name: apimfunction
+    properties:
+      url: "https://apimfunction-prod-azdffvapdah5d6ey.centralindia-01.azurewebsites.net/api"
+      resourceId: "https://management.azure.com/subscriptions/5d519402-d62b-4a0d-93cd-bd98fe938726/resourceGroups/apim-rg/providers/Microsoft.Web/sites/apimfunction-prod"
 apis:
