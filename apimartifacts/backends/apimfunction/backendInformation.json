@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "credentials": {
+      "header": {
+        "x-functions-key": [
+          "{{apimfunction-key}}"
+        ]
+      }
+    },
+    "description": "apimfunction",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/5d519402-d62b-4a0d-93cd-bd98fe938726/resourceGroups/apim-rg/providers/Microsoft.Web/sites/apimfunction",
+    "url": "https://apimfunction-g8brb9f4cmhbbsf4.centralindia-01.azurewebsites.net/api"
+  }
+}
