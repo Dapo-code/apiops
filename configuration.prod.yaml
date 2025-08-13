@@ -12,6 +12,10 @@ namedValues:
     properties:
       displayName: apimfunction-key
       value: "54EGl2r229kQTU0RElDGQFp4-lR_xCURo1o3tFVmLOxVAzFuM8XCjw=="
+  - name: Logger-Credentials--Appinsights
+    properties:
+      displayName: Logger-Credentials--Appinsights
+      value: "6426b7b3-2fb9-4460-91f0-2aeca6733957"
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -19,6 +23,14 @@ namedValues:
         identityClientId: a2441164-f635-4235-8ff0-4eb287347276
         secretIdentifier: https://keyvaultudemy204.vault.azure.net/secrets/kv-secret-demo-PROD/6e69c50c43124d3d93d83d2598711614
 loggers:
+    - name: demo-appinsights
+      properties:
+        loggerType: applicationInsights
+        description: prod application insights
+        resourceId: "/subscriptions/5d519402-d62b-4a0d-93cd-bd98fe938726/resourceGroups/prod-apim-rg/providers/microsoft.insights/components/demo-appinsights-PROD"
+        credentials:
+          instrumentationKey: "{{Logger-Credentials--Appinsights}}"
+        isBuffered: true
 diagnostics:
 backends:
   - name: apimfunction
