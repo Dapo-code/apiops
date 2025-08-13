@@ -38,3 +38,7 @@ backends:
       url: "https://apimfunction-prod-azdffvapdah5d6ey.centralindia-01.azurewebsites.net/api"
       resourceId: "https://management.azure.com/subscriptions/5d519402-d62b-4a0d-93cd-bd98fe938726/resourceGroups/apim-rg/providers/Microsoft.Web/sites/apimfunction-prod"
 apis:
+  - name: swagger-petstore-openapi-3-0
+    properties:
+      displayName: "Swagger API"
+      path: "rest/swagger"
