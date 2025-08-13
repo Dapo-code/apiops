@@ -12,7 +12,7 @@ namedValues:
     properties:
       displayName: apimfunction-key
       value: "54EGl2r229kQTU0RElDGQFp4-lR_xCURo1o3tFVmLOxVAzFuM8XCjw=="
-  - name: Logger-Credentials--Appinsights
+  - name: 689c75bd4634611ba0857ec7
     properties:
       displayName: Logger-Credentials--Appinsights
       value: "6426b7b3-2fb9-4460-91f0-2aeca6733957"
